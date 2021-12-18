@@ -1,0 +1,173 @@
+.each-job-background-container {
+  background-color: #272727;
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.each-job-card {
+  text-decoration: none;
+  color: #f1f5f9;
+}
+
+.card-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  height: 60px;
+}
+
+.each-company-logo {
+  width: 60px;
+  height: 58px;
+  margin-right: 18px;
+}
+
+.job-card-title-text {
+  margin-top: 0px;
+  line-height: 1;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+  height: 23px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  width: 23px;
+  height: 23px;
+  margin-right: 10px;
+}
+
+.rating-digit {
+  font-size: 22px;
+  color: #f1f5f9;
+  font-weight: 600;
+  margin: 0px;
+  padding-bottom: 2px;
+}
+
+.location-job-type-and-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.location-and-job-type-container {
+  display: flex;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.location-icon {
+  width: 23px;
+  height: 23px;
+  margin-right: 4px;
+}
+
+.job-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-briefcase-icon {
+  height: 23px;
+  width: 23px;
+  margin-right: 8px;
+}
+
+.respective-icon-text {
+  font-size: 14px;
+}
+
+.package-text {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+hr {
+  border: 0px;
+  border-bottom: 2px solid #64748b;
+}
+
+.description-heading {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.job-description {
+  font-size: 15px;
+}
+
+@media (max-width: 410px) {
+  .each-job-background-container {
+    padding: 15px;
+  }
+
+  .each-company-logo {
+    width: 45px;
+    height: 43px;
+    margin-right: 14px;
+  }
+
+  .job-card-title-text {
+    font-size: 15px;
+  }
+
+  .star-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .rating-digit {
+    font-size: 14px;
+  }
+
+  .location-job-type-and-package-container {
+    margin-top: 4px;
+    height: 42px;
+  }
+
+  .location-container {
+    margin-right: 14px;
+  }
+
+  .location-icon {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+  }
+
+  .respective-icon-text {
+    font-size: 12px;
+  }
+
+  .job-briefcase-icon {
+    height: 17px;
+    margin-right: 4px;
+  }
+
+  .package-text {
+    font-size: 16px;
+  }
+
+  .description-heading {
+    font-size: 15px;
+  }
+
+  .job-description {
+    font-size: 13px;
+  }
+}

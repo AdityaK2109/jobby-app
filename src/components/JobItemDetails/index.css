@@ -1,0 +1,266 @@
+.job-details-and-similar-jobs-container {
+  background-color: #000000;
+  padding: 35px;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.job-details-container {
+  width: 99%;
+  max-width: 1070px;
+  background-color: #272727;
+  padding: 20px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  border-radius: 10px;
+}
+
+.job-details-description {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.description-heading-and-visit-anchor-element-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.anchor-element-container {
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+  padding: 0px;
+  font-size: 16px;
+}
+
+.anchor-text {
+  text-decoration: none;
+  color: #64748b;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.job-details-heading {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.skills-list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.each-skill-item-container {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  max-width: 150px;
+  margin-right: 12%;
+  margin-bottom: 30px;
+}
+
+.job-item-details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #000000;
+}
+
+.skill-icons {
+  width: 50px;
+  height: 47px;
+  margin-right: 10px;
+}
+
+.skill-name-text {
+  font-size: 15px;
+}
+
+.life-at-company-description-and-img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.life-at-company-img {
+  width: 40%;
+  height: auto;
+  max-width: 270px;
+  margin-left: 30px;
+}
+
+.life-at-company-description {
+  font-size: 15px;
+  margin-top: 0px;
+  max-width: 520px;
+}
+
+.similar-job-cards-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.similar-job-title-text {
+  font-size: 17px;
+}
+
+.each-similar-job-card {
+  width: 40%;
+  max-width: 330px;
+  background-color: #272727;
+  padding: 17px;
+  border-radius: 10px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.similar-job-rating-digit {
+  font-size: 18px;
+}
+
+.failure-view-container {
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  color: #f1f5f9;
+  text-align: center;
+  padding: 25px;
+}
+
+.failure-view-img {
+  width: 90%;
+  max-width: 500px;
+}
+
+.failure-view-heading {
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.failure-view-description {
+  color: #7e858e;
+}
+
+.failure-view-retry-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
+  outline: none;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 4px;
+}
+
+@media (max-width: 767px) {
+  .job-details-and-similar-jobs-container {
+    padding: 20px;
+    padding-top: 30px;
+  }
+
+  .each-similar-job-card {
+    width: 100%;
+    max-width: 359px;
+    margin-right: 0px;
+  }
+
+  .life-at-company-description-and-img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .life-at-company-img {
+    width: 100%;
+    margin: 0px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 580px) {
+  .each-skill-item-container {
+    width: 38%;
+    margin-right: 20px;
+  }
+
+  .failure-view-heading {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 410px) {
+  .job-details-and-similar-jobs-container {
+    padding: 15px;
+    padding-top: 25px;
+  }
+
+  .job-details-container {
+    padding: 15px;
+  }
+
+  .job-details-heading {
+    font-size: 15px;
+  }
+
+  .job-details-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .skill-icons {
+    width: 30px;
+    height: 28px;
+    margin-right: 7px;
+  }
+
+  .skill-name-text {
+    font-size: 13px;
+  }
+
+  .similar-company-logo {
+    width: 40px;
+    height: 38px;
+    margin-right: 14px;
+  }
+
+  .life-at-company-description {
+    font-size: 13px;
+  }
+
+  .failure-view-container {
+    padding: 17px;
+  }
+
+  .failure-view-description {
+    font-size: 14px;
+  }
+
+  .failure-view-heading {
+    font-size: 20px;
+  }
+
+  .similar-jobs-description {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+}
